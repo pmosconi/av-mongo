@@ -8,9 +8,8 @@ class MongoDbConnection {
   async mongoConnect(): Promise<Db> {
     try {
       const client = new MongoClient(process.env.MONGO_URL!, {
-        minPoolSize: poolSize,
-        connectTimeoutMS: 120000,
-        socketTimeoutMS: 1440000,
+        maxPoolSize: poolSize,
+        ignoreUndefined: true
       });
       await client.connect();
       const db = client.db();

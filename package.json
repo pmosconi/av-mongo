@@ -1,6 +1,6 @@
 {
   "name": "@actvalue/av-mongo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Mongo client singleton",
   "main": "index.js",
   "type": "module",
