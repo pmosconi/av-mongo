@@ -1,6 +1,6 @@
 {
   "name": "@actvalue/av-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Mongo client singleton",
   "main": "index.js",
   "type": "module",
@@ -10,7 +10,13 @@
   "publishConfig": {
     "access": "public"
   },
-  "keywords": ["mongodb", "mongo", "singleton", "client", "typescript"],
+  "keywords": [
+    "mongodb",
+    "mongo",
+    "singleton",
+    "client",
+    "typescript"
+  ],
   "author": "ActValue",
   "license": "ISC",
   "devDependencies": {
